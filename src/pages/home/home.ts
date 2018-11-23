@@ -14,15 +14,23 @@ export class HomePage {
 
   shareViaFacebookWithPasteMessageHint() {
     this.socialSharing.shareViaFacebookWithPasteMessageHint(
-      "Test", 
+      "Test shareViaFacebookWithPasteMessageHint", 
       "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png", 
       "", 
-      "hola"
+      "hint"
     ).then(() => {
       console.log("OK");
     }).catch(() => {
       console.log("ERROR");
     })
+  }
+
+  shareViaFacebook() {
+    this.socialSharing.shareViaFacebook(
+      "Test shareViaFacebook",
+      "https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png", 
+      ""
+    )
   }
 
 }
