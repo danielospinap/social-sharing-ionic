@@ -1,0 +1,7 @@
+{
+  "name": "SocialSharingTest",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
